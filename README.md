@@ -13,23 +13,25 @@ Companion code for the self-paced course at
 
 **One folder per module, one folder per lesson**, named with the same slugs the
 course uses. A lesson at `gazar.dev/courses/llms-and-agents/s01-why-demos-die`
-has its code at `modules/01-workflows-and-agents/s01-why-demos-die`, so you
+has its code at `modules/01-workflows-and-agents/01-s01-why-demos-die`, so you
 never have to translate between the course and the repo.
 
 ```
 common/llm.ts     the only vendor seam
 modules/
-  00-start-here/                setup and orientation, no code
+  00-start-here/
+    01-sh-1-welcome/            reading, README points at the lesson
+    ...
   01-workflows-and-agents/
-    s01-why-demos-die/          runnable companions to the lesson
-    s02-code-model-boundary/
-    lab-workflow-router/        the lab: starter/ + solution/ + tests
-  02-context-and-retrieval/
-  03-cost-latency-reliability/
-  04-agent-architecture-and-security/
-  05-evals-and-observability/
-  06-shipping-it/
-  07-capstone/                  seven worked designs, no new code
+    01-s01-why-demos-die/       runnable companions to the lesson
+    02-workflow-vs-agent-who-s-driving/
+    ...
+    05-s02-code-model-boundary/
+    ...
+    10-lab-workflow-router/     the lab: starter/ + solution/ + tests
+    11-field-guide-workflows-and-agents/
+  ...
+  07-capstone/
 ```
 
 Each module's README lists its lessons and its lab.
@@ -52,7 +54,7 @@ cp .env.example .env    # add your OPENROUTER_API_KEY
 Both run the same way:
 
 ```bash
-npm run lab modules/01-workflows-and-agents/lab-workflow-router/starter/index.ts
+npm run lab modules/01-workflows-and-agents/10-lab-workflow-router/starter/index.ts
 ```
 
 ### The tests are the brief
@@ -76,12 +78,12 @@ limitation.
 | Module | Lesson companions | The lab |
 |--------|-------------------|---------|
 | 0 · [Start here](modules/00-start-here) | setup, what you will build, your goals | none |
-| 1 · [Workflows and Agents](modules/01-workflows-and-agents) | [`s01-why-demos-die`](modules/01-workflows-and-agents/s01-why-demos-die) · [`s02-code-model-boundary`](modules/01-workflows-and-agents/s02-code-model-boundary) | [`lab-workflow-router`](modules/01-workflows-and-agents/lab-workflow-router): classify a request and dispatch to the right handler, with schema-validated output |
-| 2 · [Context Engineering and Retrieval](modules/02-context-and-retrieval) | [`s03-context-engineering`](modules/02-context-and-retrieval/s03-context-engineering) · [`s04-context-pipeline`](modules/02-context-and-retrieval/s04-context-pipeline) | [`lab-hybrid-rag`](modules/02-context-and-retrieval/lab-hybrid-rag): keyword plus vector, re-ranking, chunking |
-| 3 · [Cost, Latency and Reliability](modules/03-cost-latency-reliability) | [`s05-cost-latency-reliability`](modules/03-cost-latency-reliability/s05-cost-latency-reliability) · [`s06-budget-failure-map`](modules/03-cost-latency-reliability/s06-budget-failure-map) | [`lab-budget-cache-fallback`](modules/03-cost-latency-reliability/lab-budget-cache-fallback): per-request budgets, caching, fallback ladders |
-| 4 · [Agent Architecture and Security](modules/04-agent-architecture-and-security) | [`s07-agent-architecture`](modules/04-agent-architecture-and-security/s07-agent-architecture) · [`s08-securing-agents`](modules/04-agent-architecture-and-security/s08-securing-agents) | [`lab-guardrailed-agent`](modules/04-agent-architecture-and-security/lab-guardrailed-agent): a guardrailed ReAct agent with tool-approval gates and injection defence |
-| 5 · [Evals and Observability](modules/05-evals-and-observability) | [`s09-trajectory-evals`](modules/05-evals-and-observability/s09-trajectory-evals) · [`s10-harness-tracing`](modules/05-evals-and-observability/s10-harness-tracing) | [`lab-eval-harness`](modules/05-evals-and-observability/lab-eval-harness): a trajectory-based eval harness with regression detection |
-| 6 · [Shipping It](modules/06-shipping-it) | [`s11-capstone-clinic`](modules/06-shipping-it/s11-capstone-clinic) · [`s12-design-review`](modules/06-shipping-it/s12-design-review) | [`lab-capstone-integration`](modules/06-shipping-it/lab-capstone-integration): integrate labs 1 to 5 behind one entry point, plus the seven-section design document |
+| 1 · [Workflows and Agents](modules/01-workflows-and-agents) | [`s01-why-demos-die`](modules/01-workflows-and-agents/01-s01-why-demos-die) · [`s02-code-model-boundary`](modules/01-workflows-and-agents/05-s02-code-model-boundary) | [`lab-workflow-router`](modules/01-workflows-and-agents/10-lab-workflow-router): classify a request and dispatch to the right handler, with schema-validated output |
+| 2 · [Context Engineering and Retrieval](modules/02-context-and-retrieval) | [`s03-context-engineering`](modules/02-context-and-retrieval/01-s03-context-engineering) · [`s04-context-pipeline`](modules/02-context-and-retrieval/05-s04-context-pipeline) | [`lab-hybrid-rag`](modules/02-context-and-retrieval/07-lab-hybrid-rag): keyword plus vector, re-ranking, chunking |
+| 3 · [Cost, Latency and Reliability](modules/03-cost-latency-reliability) | [`s05-cost-latency-reliability`](modules/03-cost-latency-reliability/01-s05-cost-latency-reliability) · [`s06-budget-failure-map`](modules/03-cost-latency-reliability/03-s06-budget-failure-map) | [`lab-budget-cache-fallback`](modules/03-cost-latency-reliability/05-lab-budget-cache-fallback): per-request budgets, caching, fallback ladders |
+| 4 · [Agent Architecture and Security](modules/04-agent-architecture-and-security) | [`s07-agent-architecture`](modules/04-agent-architecture-and-security/01-s07-agent-architecture) · [`s08-securing-agents`](modules/04-agent-architecture-and-security/03-s08-securing-agents) | [`lab-guardrailed-agent`](modules/04-agent-architecture-and-security/07-lab-guardrailed-agent): a guardrailed ReAct agent with tool-approval gates and injection defence |
+| 5 · [Evals and Observability](modules/05-evals-and-observability) | [`s09-trajectory-evals`](modules/05-evals-and-observability/01-s09-trajectory-evals) · [`s10-harness-tracing`](modules/05-evals-and-observability/02-s10-harness-tracing) | [`lab-eval-harness`](modules/05-evals-and-observability/04-lab-eval-harness): a trajectory-based eval harness with regression detection |
+| 6 · [Shipping It](modules/06-shipping-it) | [`s11-capstone-clinic`](modules/06-shipping-it/01-s11-capstone-clinic) · [`s12-design-review`](modules/06-shipping-it/02-s12-design-review) | [`lab-capstone-integration`](modules/06-shipping-it/04-lab-capstone-integration): integrate labs 1 to 5 behind one entry point, plus the seven-section design document |
 | 7 · [Capstone](modules/07-capstone) | seven worked designs, then your own review | none |
 
 ## What is scaffolded today

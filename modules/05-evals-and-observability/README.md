@@ -1,12 +1,16 @@
-# Module 5 · Evals and Observability
+# Evals and Observability
 
-Grading the path, not just the answer, and seeing what the system actually did.
+Every lesson in this module has a folder, in the order the course teaches them,
+named with the same slug the course uses. 2 of the 6 carry runnable code;
+the rest are reading, and their folder points back at the lesson.
 
-| Lesson | Code | What it is |
-|--------|------|-----------|
-| S9 | [`s09-trajectory-evals`](s09-trajectory-evals) | Output vs trajectory evals, graders, offline and online |
-| S10 | [`s10-harness-tracing`](s10-harness-tracing) | Tracing, dashboards, prompt versioning, the runbook |
-| Lab | [`lab-eval-harness`](lab-eval-harness) | Golden set, graders, trajectory check, pass-rate report that catches a planted regression |
+| # | Folder | Kind | |
+|---|--------|------|---|
+| 1 | [`01-s09-trajectory-evals`](01-s09-trajectory-evals) | lesson | runnable code |
+| 2 | [`02-s10-harness-tracing`](02-s10-harness-tracing) | lesson | runnable code |
+| 3 | [`03-cheatsheet-evals-observability`](03-cheatsheet-evals-observability) | cheat sheet |  |
+| 4 | [`04-lab-eval-harness`](04-lab-eval-harness) | lab |  |
+| 5 | [`05-p4-eval-harness-plan`](05-p4-eval-harness-plan) | project |  |
+| 6 | [`06-field-guide-evals-and-observability`](06-field-guide-evals-and-observability) | field guide |  |
 
-Plant the regression yourself. A harness you have never seen fail is not
-evidence that it works.
+Read the module: [https://gazar.dev/courses/llms-and-agents](https://gazar.dev/courses/llms-and-agents)

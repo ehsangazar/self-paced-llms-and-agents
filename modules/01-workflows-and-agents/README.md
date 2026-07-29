@@ -1,13 +1,21 @@
-# Module 1 · Workflows and Agents
+# Workflows and Agents
 
-Why demos die in production, when a task actually needs an agent, and the one
-decision that shapes everything after it: what the model should never touch.
+Every lesson in this module has a folder, in the order the course teaches them,
+named with the same slug the course uses. 3 of the 11 carry runnable code;
+the rest are reading, and their folder points back at the lesson.
 
-| Lesson | Code | What it is |
-|--------|------|-----------|
-| S1 | [`s01-why-demos-die`](s01-why-demos-die) | The demo that dies under real traffic, then the five workflow patterns, runnable |
-| S2 | [`s02-code-model-boundary`](s02-code-model-boundary) | The deterministic/model boundary: one task as a workflow vs as an agent |
-| Lab | [`lab-workflow-router`](lab-workflow-router) | Classify, route to the cheapest capable tier, validate, fall back |
+| # | Folder | Kind | |
+|---|--------|------|---|
+| 1 | [`01-s01-why-demos-die`](01-s01-why-demos-die) | lesson | runnable code |
+| 2 | [`02-workflow-vs-agent-who-s-driving`](02-workflow-vs-agent-who-s-driving) | lesson |  |
+| 3 | [`03-the-five-workflow-patterns`](03-the-five-workflow-patterns) | lesson |  |
+| 4 | [`04-composing-patterns`](04-composing-patterns) | lesson |  |
+| 5 | [`05-s02-code-model-boundary`](05-s02-code-model-boundary) | lesson | runnable code |
+| 6 | [`06-five-ways-the-model-s-output-betrays-you`](06-five-ways-the-model-s-output-betrays-you) | lesson |  |
+| 7 | [`07-make-it-observable-or-ship-blind`](07-make-it-observable-or-ship-blind) | lesson |  |
+| 8 | [`08-now-draw-yours`](08-now-draw-yours) | lesson |  |
+| 9 | [`09-cheatsheet-workflow-patterns`](09-cheatsheet-workflow-patterns) | cheat sheet |  |
+| 10 | [`10-lab-workflow-router`](10-lab-workflow-router) | lab | runnable code |
+| 11 | [`11-field-guide-workflows-and-agents`](11-field-guide-workflows-and-agents) | field guide |  |
 
-This is the module to read first: `lab-workflow-router` is the fully scaffolded
-one, with a starter, a worked solution and its test suite.
+Read the module: [https://gazar.dev/courses/llms-and-agents](https://gazar.dev/courses/llms-and-agents)

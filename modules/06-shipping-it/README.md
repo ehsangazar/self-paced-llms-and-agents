@@ -1,11 +1,16 @@
-# Module 6 · Shipping It
+# Shipping It
 
-Everything from the five modules before, pulled into one design you can defend.
+Every lesson in this module has a folder, in the order the course teaches them,
+named with the same slug the course uses. 2 of the 6 carry runnable code;
+the rest are reading, and their folder points back at the lesson.
 
-| Lesson | Code | What it is |
-|--------|------|-----------|
-| S11 | [`s11-capstone-clinic`](s11-capstone-clinic) | The end-to-end design, with live feedback |
-| S12 | [`s12-design-review`](s12-design-review) | Presenting and defending it |
-| Lab | [`lab-capstone-integration`](lab-capstone-integration) | Labs 1-5 behind one entry point, plus the seven-section design document |
+| # | Folder | Kind | |
+|---|--------|------|---|
+| 1 | [`01-s11-capstone-clinic`](01-s11-capstone-clinic) | lesson | runnable code |
+| 2 | [`02-s12-design-review`](02-s12-design-review) | lesson | runnable code |
+| 3 | [`03-cheatsheet-production-checklist`](03-cheatsheet-production-checklist) | cheat sheet |  |
+| 4 | [`04-lab-capstone-integration`](04-lab-capstone-integration) | lab |  |
+| 5 | [`05-p5-capstone-design-doc`](05-p5-capstone-design-doc) | project |  |
+| 6 | [`06-field-guide-shipping-it`](06-field-guide-shipping-it) | field guide |  |
 
-Run Module 5's harness against this integrated system before you call it done.
+Read the module: [https://gazar.dev/courses/llms-and-agents](https://gazar.dev/courses/llms-and-agents)

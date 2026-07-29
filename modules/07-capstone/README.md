@@ -1,9 +1,18 @@
-# Module 7 · Capstone
+# Capstone: Worked LLM System Designs
 
-No new code here. This module is seven worked designs and the review that closes
-the course: support triage agent, doc QA over RAG, coding agent, bulk
-extraction, voice agent, LLM gateway, and your own design review.
+Every lesson in this module has a folder, in the order the course teaches them,
+named with the same slug the course uses. 0 of the 8 carry runnable code;
+the rest are reading, and their folder points back at the lesson.
 
-Build them against what you already have: the router from Module 1, the
-retrieval pipeline from Module 2, the budget and fallback ladder from Module 3,
-the guardrails from Module 4, the harness from Module 5, integrated in Module 6.
+| # | Folder | Kind | |
+|---|--------|------|---|
+| 1 | [`01-llm-design-framework`](01-llm-design-framework) | lesson |  |
+| 2 | [`02-design-support-triage-agent`](02-design-support-triage-agent) | worked design |  |
+| 3 | [`03-design-doc-qa-rag`](03-design-doc-qa-rag) | worked design |  |
+| 4 | [`04-design-coding-agent`](04-design-coding-agent) | worked design |  |
+| 5 | [`05-design-bulk-extraction`](05-design-bulk-extraction) | worked design |  |
+| 6 | [`06-design-voice-agent`](06-design-voice-agent) | worked design |  |
+| 7 | [`07-design-llm-gateway`](07-design-llm-gateway) | worked design |  |
+| 8 | [`08-project-llm-design-review`](08-project-llm-design-review) | project |  |
+
+Read the module: [https://gazar.dev/courses/llms-and-agents](https://gazar.dev/courses/llms-and-agents)

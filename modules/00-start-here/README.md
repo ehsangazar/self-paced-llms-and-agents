@@ -1,15 +1,15 @@
-# Module 0 · Start here
+# Start Here
 
-No code in this module. It sets the target: what you are building, how the labs
-work, and the goals you write down before Module 1.
+Every lesson in this module has a folder, in the order the course teaches them,
+named with the same slug the course uses. 0 of the 5 carry runnable code;
+the rest are reading, and their folder points back at the lesson.
 
-**Set up once, here, so every later module just runs:**
+| # | Folder | Kind | |
+|---|--------|------|---|
+| 1 | [`01-sh-1-welcome`](01-sh-1-welcome) | lesson |  |
+| 2 | [`02-sh-2-how-to-use`](02-sh-2-how-to-use) | lesson |  |
+| 3 | [`03-sh-3-control-and-observability`](03-sh-3-control-and-observability) | lesson |  |
+| 4 | [`04-sh-4-what-you-will-build`](04-sh-4-what-you-will-build) | lesson |  |
+| 5 | [`05-p0-set-your-goals`](05-p0-set-your-goals) | project |  |
 
-```bash
-npm install
-cp .env.example .env    # add your OPENROUTER_API_KEY
-npm test                # the tests are the brief; they fail on a fresh clone
-```
-
-Everything that touches a vendor lives in [`common/llm.ts`](../../common/llm.ts).
-Swap that one file and every lab still teaches the same thing.
+Read the module: [https://gazar.dev/courses/llms-and-agents](https://gazar.dev/courses/llms-and-agents)
