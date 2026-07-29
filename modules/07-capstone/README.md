@@ -1,12 +1,12 @@
 # Capstone: Worked LLM System Designs
 
 Every lesson in this module has a folder, in the order the course teaches them,
-named with the same slug the course uses. 0 of the 8 carry runnable code;
-the rest are reading, and their folder points back at the lesson.
+named with the same slug the course uses. 1 of the 8 ship runnable code;
+the rest are written artifacts, and their folder points back at the lesson.
 
 | # | Folder | Kind | |
 |---|--------|------|---|
-| 1 | [`01-llm-design-framework`](01-llm-design-framework) | lesson |  |
+| 1 | [`01-llm-design-framework`](01-llm-design-framework) | lesson | runnable |
 | 2 | [`02-design-support-triage-agent`](02-design-support-triage-agent) | worked design |  |
 | 3 | [`03-design-doc-qa-rag`](03-design-doc-qa-rag) | worked design |  |
 | 4 | [`04-design-coding-agent`](04-design-coding-agent) | worked design |  |

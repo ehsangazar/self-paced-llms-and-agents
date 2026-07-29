@@ -47,6 +47,7 @@ This repo is the module-based one, matching the self-paced course.
 ```bash
 npm install
 cp .env.example .env    # add your OPENROUTER_API_KEY
+npm run lab modules/00-start-here/02-sh-2-how-to-use/check-setup.ts   # confirms all of the above
 ```
 
 ## Running a lesson companion or a lab
